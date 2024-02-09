@@ -1,0 +1,34 @@
+No half points!!
+
+Can the program handle less than 10 (and also 0) records?
+  lunarcraters-0.bin - 2 pts
+  lunarcraters-empty.bin - 2 pts
+  lunarcraters-1.bin - 2 pts
+  lunarcraters-2.bin - 2 pts
+
+Can the program handle odd/even numbers of records?
+  lunarcraters-1.bin - 1 pt
+  lunarcraters-2.bin - 1 pt
+  lunarcraters-10.bin - 1 pt
+  lunarcraters-11.bin - 1 pt
+  lunarcraters.bin - 1 pt
+
+Are the number of records, and the names and apparent depths of
+the ten craters having the largest apparent depths printed out?
+  lunarcraters-10.bin - 2 pts
+  lunarcraters-11.bin - 2 pts
+  lunarcraters.bin - 2 pts
+
+Can the program handle ties correctly, which may cause the list
+of craters with the largest apparent depths to be longer than ten?
+  lunarcraters-10.bin - 2 pts
+  lunarcraters-11.bin - 2 pts
+  lunarcraters.bin - 2 pts
+
+Able to handle zero or more crater names during the Exponential
+Binary Search algorithm (including the case where it is not found)?
+  Test using lunarcraters.csv file:
+    Input 1: None (polite not found message) - 1 pt
+    Input 2: Stromgren A (should find a crater) - 2 pts
+    Input 3: Von der Pahlen (should find a crater) - 2 pts
+    Input 4: Mango (should not find a crater) - 1 pt
